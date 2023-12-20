@@ -1,0 +1,11 @@
+framework module LearningFramework_Build {
+  umbrella header "LearningFramework_Build.h"
+  export *
+
+  module * { export * }
+}
+
+module LearningFramework_Build.Swift {
+  header "LearningFramework_Build-Swift.h"
+  requires objc
+}
