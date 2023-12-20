@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LearningFramework_Build
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LearningFramework_Build
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 @_exported import LearningFramework_Build
@@ -31,6 +31,17 @@ public class LearningFrameworkCoordinator {
   public var navigationController: UIKit.UINavigationController?
   public static var navController: UIKit.UINavigationController?
   public init(navigationController: UIKit.UINavigationController)
-  public func start()
+  public func start(message: Swift.String, startType: LearningFramework_Build.LearningFrameworkCoordinator.StartType, delegate: (any LearningFramework_Build.LearningFrameworkDelegate)? = nil)
+  public enum StartType {
+    case PUSH
+    case PRESENT
+    public static func == (a: LearningFramework_Build.LearningFrameworkCoordinator.StartType, b: LearningFramework_Build.LearningFrameworkCoordinator.StartType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
   @objc deinit
 }
+extension LearningFramework_Build.LearningFrameworkCoordinator.StartType : Swift.Equatable {}
+extension LearningFramework_Build.LearningFrameworkCoordinator.StartType : Swift.Hashable {}

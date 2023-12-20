@@ -52,7 +52,8 @@
             "objc_name": "clickWithValue:",
             "declAttributes": [
               "Optional",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -77,7 +78,8 @@
             "protocolReq": true,
             "declAttributes": [
               "Optional",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -796,29 +798,258 @@
             "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC20navigationControllerACSo012UINavigationF0C_tcfc",
             "moduleName": "LearningFramework_Build",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start()",
+            "printedName": "start(message:startType:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StartType",
+                "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LearningFramework_Build.LearningFrameworkDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LearningFrameworkDelegate",
+                    "printedName": "LearningFramework_Build.LearningFrameworkDelegate",
+                    "usr": "c:@M@LearningFramework_Build@objc(pl)LearningFrameworkDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:23LearningFramework_Build0aB11CoordinatorC5startyyF",
-            "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC5startyyF",
+            "usr": "s:23LearningFramework_Build0aB11CoordinatorC5start7message0E4Type8delegateySS_AC05StartG0OAA0aB8Delegate_pSgtF",
+            "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC5start7message0E4Type8delegateySS_AC05StartG0OAA0aB8Delegate_pSgtF",
+            "moduleName": "LearningFramework_Build",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "StartType",
+            "printedName": "StartType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "PUSH",
+                "printedName": "PUSH",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LearningFramework_Build.LearningFrameworkCoordinator.StartType.Type) -> LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StartType",
+                        "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                        "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StartType",
+                            "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                            "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO4PUSHyA2EmF",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO4PUSHyA2EmF",
+                "moduleName": "LearningFramework_Build"
+              },
+              {
+                "kind": "Var",
+                "name": "PRESENT",
+                "printedName": "PRESENT",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LearningFramework_Build.LearningFrameworkCoordinator.StartType.Type) -> LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StartType",
+                        "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                        "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StartType",
+                            "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                            "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO7PRESENTyA2EmF",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO7PRESENTyA2EmF",
+                "moduleName": "LearningFramework_Build"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StartType",
+                    "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                    "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StartType",
+                    "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                    "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "LearningFramework_Build",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO9hashValueSivp",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO9hashValueSivp",
+                "moduleName": "LearningFramework_Build",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO9hashValueSivg",
+                    "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO9hashValueSivg",
+                    "moduleName": "LearningFramework_Build",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "LearningFramework_Build",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO",
+            "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO",
             "moduleName": "LearningFramework_Build",
             "declAttributes": [
               "AccessControl"
             ],
-            "funcSelfKind": "NonMutating"
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -1087,7 +1318,7 @@
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 460,
+      "offset": 888,
       "length": 1,
       "value": "0"
     },
@@ -1122,9 +1353,16 @@
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/LearningFrameworkCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 704,
-      "length": 5,
-      "value": "false"
+      "offset": 1490,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/LearningFrameworkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1774,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

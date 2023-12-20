@@ -313,7 +313,20 @@ SWIFT_CLASS("_TtC23LearningFramework_Build23Learning1ViewController")
 SWIFT_PROTOCOL("_TtP23LearningFramework_Build25LearningFrameworkDelegate_")
 @protocol LearningFrameworkDelegate
 @optional
+/// This function is used to get any data from the framework.
+/// Note: This function is not in use in framework at this moment.
+/// \param value The parameter of type ‘Any’.
+///
+///
+/// returns:
+/// Does not return.
 - (void)clickWithValue:(id _Nonnull)value;
+/// This function is used to get call back from the framework.
+/// \param value Does not take parameter.
+///
+///
+/// returns:
+/// Does not return.
 - (void)click;
 @end
 
