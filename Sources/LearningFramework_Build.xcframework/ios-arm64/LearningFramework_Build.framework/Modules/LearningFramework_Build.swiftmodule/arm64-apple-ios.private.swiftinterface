@@ -9,6 +9,14 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class Learning1ViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var delegate: (any LearningFramework_Build.LearningFrameworkDelegate)?
+  @_Concurrency.MainActor(unsafe) public var textMessage: Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc public protocol LearningFrameworkDelegate {
   @objc optional func click(value: Any)
   @objc optional func click()
@@ -19,13 +27,10 @@ extension UIKit.UIView {
 extension UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public class func register<T>(type: T.Type) -> T where T : UIKit.UIViewController
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class Learning1ViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public var delegate: (any LearningFramework_Build.LearningFrameworkDelegate)?
-  @_Concurrency.MainActor(unsafe) public var textMessage: Swift.String
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
+extension UIKit.UITableViewCell {
+  @_Concurrency.MainActor(unsafe) public static var identifier: Swift.String {
+    get
+  }
 }
 public class LearningFrameworkCoordinator {
   public var navigationController: UIKit.UINavigationController?

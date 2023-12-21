@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/LearningFramework_Build-Swift.h</key>
 		<data>
-		uIAl0+mbxsWFgj9hiew4ByzPC3Q=
+		ejmkidlmnRyv6QwP5yQ640osak8=
 		</data>
 		<key>Headers/LearningFramework_Build.h</key>
 		<data>
@@ -20,17 +20,21 @@
 		<data>
 		/qJgZ4ASVOyI9TDvyik1SBeAaxU=
 		</data>
+		<key>Learning2TableViewCell.nib</key>
+		<data>
+		uJnpsA1OUWHPD+vnTFVB3/EdlRA=
+		</data>
 		<key>Learning2ViewController.nib</key>
 		<data>
-		KXUi655eDd08p+U0iuQGW9t0EvM=
+		R+CXDB9m4GZsP/e26jw1nQoaLok=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		0QatDY5bUBHy8+O8aj4CdMWpyW8=
+		lr0NkodTuDHmteSyCt+P/crRUwA=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		xtiiebD7sJUNcsZI0KIBTqxqTX0=
+		z7vfT7PqCz3uJLeb5V7nnvwRc6o=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +42,11 @@
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		xtiiebD7sJUNcsZI0KIBTqxqTX0=
+		z7vfT7PqCz3uJLeb5V7nnvwRc6o=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		NXVtY81QGLByfLpEwq/hqi+1CFc=
+		dOiWqhb9KYuaVdPigzsN+R5lKLk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lxnwonD+dGWMeDo5LyojrZLMj3bhb0MMI3SBAXVu2No=
+			Y/bTfBRDbDtQNNH5mfUrrLzCqpXiqyJsXUCfAlm27pk=
 			</data>
 		</dict>
 		<key>Headers/LearningFramework_Build.h</key>
@@ -72,25 +76,32 @@
 			KYEvBTwm5BQunR8wY1nuMvXTn1mMPWFDbAZUm4PBI8g=
 			</data>
 		</dict>
+		<key>Learning2TableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H/XpBeEwNBroONugEU21lr9J2/puZOwOZJhWm6jXOnc=
+			</data>
+		</dict>
 		<key>Learning2ViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fR0GsCCzmJAIkUxCDTLgt7SFfmBge7MGWGy+CekJ3Ms=
+			FRyVdvwppHMIr1+BCXewbAJxDiTc7wsrViZia1qcN6g=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LercS8NGDGQ3J9kIHqqUcDCUk/48MUgDN6jMFkQY0xA=
+			OnuNAOM4umapWexTOIi6mk5ZjFscndZYY3RAR566GBA=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6piYJVUqsf8ljFs5a2vsihFNZwg+LhdqNSBRMbC2x+E=
+			NuqKNSxh0iyMeesGUFKGKp1hFPM9x0NHnshn1m9vnO0=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -104,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6piYJVUqsf8ljFs5a2vsihFNZwg+LhdqNSBRMbC2x+E=
+			NuqKNSxh0iyMeesGUFKGKp1hFPM9x0NHnshn1m9vnO0=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8JqiUn32lb++Tp3BOaaxuCbrWZZgYBMS80FR3CXGIuQ=
+			jyQYlM4IU81XfUJjirXweDZIut9i6/U+1RD0OUjjZUI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
