@@ -449,6 +449,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1530,6 +1540,62 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 8,
+      "value": "\"Photos\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1074,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1264,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1364,
+      "length": 5,
+      "value": "\"MAP\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1693,
+      "length": 20,
+      "value": "\"Caera Info \""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1712,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1748,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2082,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
       "offset": 492,
@@ -1546,56 +1612,63 @@
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1537,
+      "offset": 1403,
       "length": 34,
       "value": "\"Error in framework API: \""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1570,
+      "offset": 1436,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2148,
+      "offset": 2062,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2278,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2395,
+      "offset": 2525,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2817,
+      "offset": 2947,
       "length": 140,
       "value": "\"Details: \""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2864,
+      "offset": 2994,
       "length": 5,
       "value": "\"\nBrand: \""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2900,
+      "offset": 3030,
       "length": 5,
       "value": "\"\nPrice: $\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2937,
+      "offset": 3067,
       "length": 160,
       "value": "\"\""
     },
