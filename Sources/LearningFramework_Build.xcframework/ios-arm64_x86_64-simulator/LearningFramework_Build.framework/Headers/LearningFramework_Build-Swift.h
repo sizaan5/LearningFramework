@@ -277,7 +277,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import UIKit;
 #endif
 
 #endif
@@ -298,17 +297,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSString;
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC23LearningFramework_Build23Learning1ViewController")
-@interface Learning1ViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_PROTOCOL("_TtP23LearningFramework_Build25LearningFrameworkDelegate_")
 @protocol LearningFrameworkDelegate
@@ -621,7 +609,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import UIKit;
 #endif
 
 #endif
@@ -642,17 +629,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSString;
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC23LearningFramework_Build23Learning1ViewController")
-@interface Learning1ViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_PROTOCOL("_TtP23LearningFramework_Build25LearningFrameworkDelegate_")
 @protocol LearningFrameworkDelegate

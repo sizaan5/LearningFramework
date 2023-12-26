@@ -25,406 +25,23 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "Learning1ViewController",
-        "printedName": "Learning1ViewController",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "LearningFramework_Build.LearningFrameworkDelegate?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LearningFrameworkDelegate",
-                    "printedName": "LearningFramework_Build.LearningFrameworkDelegate",
-                    "usr": "c:@M@LearningFramework_Build@objc(pl)LearningFrameworkDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23LearningFramework_Build23Learning1ViewControllerC8delegateAA0aB8Delegate_pSgvp",
-            "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC8delegateAA0aB8Delegate_pSgvp",
-            "moduleName": "LearningFramework_Build",
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "LearningFramework_Build.LearningFrameworkDelegate?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LearningFrameworkDelegate",
-                        "printedName": "LearningFramework_Build.LearningFrameworkDelegate",
-                        "usr": "c:@M@LearningFramework_Build@objc(pl)LearningFrameworkDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23LearningFramework_Build23Learning1ViewControllerC8delegateAA0aB8Delegate_pSgvg",
-                "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC8delegateAA0aB8Delegate_pSgvg",
-                "moduleName": "LearningFramework_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "LearningFramework_Build.LearningFrameworkDelegate?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LearningFrameworkDelegate",
-                        "printedName": "LearningFramework_Build.LearningFrameworkDelegate",
-                        "usr": "c:@M@LearningFramework_Build@objc(pl)LearningFrameworkDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23LearningFramework_Build23Learning1ViewControllerC8delegateAA0aB8Delegate_pSgvs",
-                "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC8delegateAA0aB8Delegate_pSgvs",
-                "moduleName": "LearningFramework_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23LearningFramework_Build23Learning1ViewControllerC8delegateAA0aB8Delegate_pSgvM",
-                "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC8delegateAA0aB8Delegate_pSgvM",
-                "moduleName": "LearningFramework_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "textMessage",
-            "printedName": "textMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23LearningFramework_Build23Learning1ViewControllerC11textMessageSSvp",
-            "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC11textMessageSSvp",
-            "moduleName": "LearningFramework_Build",
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23LearningFramework_Build23Learning1ViewControllerC11textMessageSSvg",
-                "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC11textMessageSSvg",
-                "moduleName": "LearningFramework_Build",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23LearningFramework_Build23Learning1ViewControllerC11textMessageSSvs",
-                "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC11textMessageSSvs",
-                "moduleName": "LearningFramework_Build",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23LearningFramework_Build23Learning1ViewControllerC11textMessageSSvM",
-                "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC11textMessageSSvM",
-                "moduleName": "LearningFramework_Build",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@LearningFramework_Build@objc(cs)Learning1ViewController(im)viewDidLoad",
-            "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC11viewDidLoadyyF",
-            "moduleName": "LearningFramework_Build",
-            "overriding": true,
-            "objc_name": "viewDidLoad",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(nibName:bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Learning1ViewController",
-                "printedName": "LearningFramework_Build.Learning1ViewController",
-                "usr": "c:@M@LearningFramework_Build@objc(cs)Learning1ViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Bundle?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@LearningFramework_Build@objc(cs)Learning1ViewController(im)initWithNibName:bundle:",
-            "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
-            "moduleName": "LearningFramework_Build",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithNibName:bundle:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "LearningFramework_Build.Learning1ViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Learning1ViewController",
-                    "printedName": "LearningFramework_Build.Learning1ViewController",
-                    "usr": "c:@M@LearningFramework_Build@objc(cs)Learning1ViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@LearningFramework_Build@objc(cs)Learning1ViewController(im)initWithCoder:",
-            "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "LearningFramework_Build",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Required"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@LearningFramework_Build@objc(cs)Learning1ViewController",
-        "mangledName": "$s23LearningFramework_Build23Learning1ViewControllerC",
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "LearningFramework_Build",
         "declAttributes": [
-          "Custom",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIViewController",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIViewController",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          }
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -469,6 +86,40 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapKit",
+        "printedName": "MapKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -481,6 +132,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "LearningFramework_Build"
       },
@@ -556,7 +214,8 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ]
       },
       {
@@ -1514,161 +1173,154 @@
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning1\/Learning1ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 375,
+      "offset": 370,
       "length": 5,
       "value": "\"...\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning1\/Learning1ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 599,
-      "length": 31,
-      "value": "\"textMessage => \""
-    },
-    {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning1\/Learning1ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 629,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning1\/Learning1ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1341,
+      "offset": 1282,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 475,
+      "offset": 477,
       "length": 8,
       "value": "\"Photos\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1074,
+      "offset": 1076,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1264,
+      "offset": 1266,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
-      "length": 5,
-      "value": "\"MAP\""
-    },
-    {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1693,
-      "length": 20,
-      "value": "\"Caera Info \""
-    },
-    {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1712,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1392,
+      "length": 6,
+      "value": "\"Maps\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1748,
+      "offset": 1597,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 13,
+      "value": "\"Google Maps\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1743,
+      "length": 21,
+      "value": "\"Move to Google Maps\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2184,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2082,
+      "offset": 2500,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 494,
       "length": 10,
       "value": "\"Products\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1159,
+      "offset": 1161,
       "length": 32,
       "value": "\"https:\/\/dummyjson.com\/products\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1403,
+      "offset": 1397,
       "length": 34,
       "value": "\"Error in framework API: \""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1436,
+      "offset": 1430,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2062,
+      "offset": 2056,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2278,
+      "offset": 2272,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2525,
+      "offset": 2519,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2947,
+      "offset": 2941,
       "length": 140,
       "value": "\"Details: \""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2994,
+      "offset": 2988,
       "length": 5,
       "value": "\"\nBrand: \""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3030,
+      "offset": 3024,
       "length": 5,
       "value": "\"\nPrice: $\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3067,
+      "offset": 3061,
       "length": 160,
       "value": "\"\""
     },
@@ -1680,37 +1332,128 @@
       "value": "0.35"
     },
     {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 18,
+      "value": "\"Choose an Option\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 984,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1036,
+      "length": 7,
+      "value": "\"Oops!\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1226,
+      "length": 7,
+      "value": "\"Okay!\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1324,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/MapKitViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 8,
+      "value": "\"MapKit\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/MapKitViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 660,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/MapKitViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 681,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/MapKitViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 814,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/MapKitViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1156,
+      "length": 29,
+      "value": "\"Can not determine location.\""
+    },
+    {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 888,
+      "offset": 1166,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
+      "offset": 1462,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
       "kind": "StringLiteral",
-      "offset": 1192,
+      "offset": 1470,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 1529,
+      "offset": 1807,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
       "kind": "StringLiteral",
-      "offset": 1604,
+      "offset": 1882,
       "length": 7,
       "value": "\"image\""
     },
