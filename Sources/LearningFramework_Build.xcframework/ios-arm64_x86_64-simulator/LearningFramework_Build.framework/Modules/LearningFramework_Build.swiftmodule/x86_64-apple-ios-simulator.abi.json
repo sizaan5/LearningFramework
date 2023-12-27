@@ -56,6 +56,13 @@
       },
       {
         "kind": "Import",
+        "name": "GoogleMaps",
+        "printedName": "GoogleMaps",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1228,22 +1235,22 @@
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1743,
-      "length": 21,
-      "value": "\"Move to Google Maps\""
-    },
-    {
-      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2184,
+      "offset": 1888,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2500,
+      "offset": 2312,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2628,
       "length": 4,
       "value": "true"
     },
@@ -1323,6 +1330,34 @@
       "offset": 3061,
       "length": 160,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/GoogleMapsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 41,
+      "value": "\"AIzaSyBTeJkw45WC4tzcdbk1zAYwXLpLyMysE8I\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/GoogleMapsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 787,
+      "length": 6,
+      "value": "-33.86"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/GoogleMapsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 878,
+      "length": 6,
+      "value": "151.20"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/GoogleMapsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 892,
+      "length": 3,
+      "value": "6.0"
     },
     {
       "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Nib\/Learning2TableViewCell.swift",

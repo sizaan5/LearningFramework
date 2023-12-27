@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreLocation
 import Foundation
+import GoogleMaps
 @_exported import LearningFramework_Build
 import MapKit
 import Swift

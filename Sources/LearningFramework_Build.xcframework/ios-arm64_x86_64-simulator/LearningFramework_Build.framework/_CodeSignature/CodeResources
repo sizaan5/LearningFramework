@@ -10,7 +10,7 @@
 		</data>
 		<key>GoogleMapsViewController.nib</key>
 		<data>
-		5C56NsXQJsEdZUiNTdfcGfK0Esw=
+		xbg3CBE3OovmC30UsuacDF2kmX8=
 		</data>
 		<key>Headers/LearningFramework_Build-Swift.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Learning2ViewController.nib</key>
 		<data>
-		Srmll5vcOUnST+bO7foDJwyrB/U=
+		taukBwdWw362Zq3h2PXPMerIx4E=
 		</data>
 		<key>Learning3ViewController.nib</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yoCrTf5yIHjQZqvEhTNPtJqAa5c=
+		FwPEKZo3QcSabbFNLkyBoSS+VFg=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tjTg191QqUzm1rIrFYmxgLCNdGA=
+		k67o2nmGIcONDElinwRi90MoSM8=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,19 +58,19 @@
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tjTg191QqUzm1rIrFYmxgLCNdGA=
+		k67o2nmGIcONDElinwRi90MoSM8=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9hT4HaXuXoAvR3nHM64W1j/xt1E=
+		aSHPaQ3Fa5d3N8BselQbsUfGjeE=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yoCrTf5yIHjQZqvEhTNPtJqAa5c=
+		FwPEKZo3QcSabbFNLkyBoSS+VFg=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xGodOzidI1nGC5rLekVq9l/Zf8o=
+		pOWECWZi6+jgxxdDW63ThofGamA=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xGodOzidI1nGC5rLekVq9l/Zf8o=
+		pOWECWZi6+jgxxdDW63ThofGamA=
 		</data>
 		<key>Modules/LearningFramework_Build.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MuojuF7OeZpYrQyrIIe/IwZ48rI=
+		+wlI4kzF5CdfBJtCLjAknDVJf0o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,7 +102,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XYcDfQ5UqNmRf90oBbesRlMCX5aHLr46SQdr6XbsM50=
+			t3zz5X2rRqFe87GqEjF+Yt7fi7NON4aJyDfJYYskazI=
 			</data>
 		</dict>
 		<key>Headers/LearningFramework_Build-Swift.h</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJSelhq/KtIoTTwlZ0Wc4Jf+0idkmUDufcB9QUOfFsw=
+			3P1KWsNdxefCmr5/TEP/liJuJBeExASzbV9FTFtjQ34=
 			</data>
 		</dict>
 		<key>Learning3ViewController.nib</key>
@@ -158,14 +158,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YMZ3o0RKcqfQlKontIFt4MoNROvR56CFlE8ZyeqtCXM=
+			7cvFw5cNApevTQyHFChk4ufKMmx7ivl4aCYpEndBKPs=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P5uA6MkJGfevENhohE51Isde8QRTdMJkQWv/ckZKfak=
+			b0WLrcSmhkYO6f6ybLA4dKR8owUaTeGtBnLaKdCEvyM=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -179,28 +179,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P5uA6MkJGfevENhohE51Isde8QRTdMJkQWv/ckZKfak=
+			b0WLrcSmhkYO6f6ybLA4dKR8owUaTeGtBnLaKdCEvyM=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zou2OqR8I5pMbls4j2PPSUuCIFjOSnmZETmqz1Yg2r0=
+			QXkNI25T4iJcGrWQyEhkAAIbk5HbuStIRcAge38Ruks=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YMZ3o0RKcqfQlKontIFt4MoNROvR56CFlE8ZyeqtCXM=
+			7cvFw5cNApevTQyHFChk4ufKMmx7ivl4aCYpEndBKPs=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1BmoMaVkYZoSHhvAVHySju3QSaXCvwwUrO/uE/d/06Y=
+			lpUqmvh2g/lN7my9GKb+C0HV3EgVzZGmPaoj0h6vCEY=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -214,14 +214,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1BmoMaVkYZoSHhvAVHySju3QSaXCvwwUrO/uE/d/06Y=
+			lpUqmvh2g/lN7my9GKb+C0HV3EgVzZGmPaoj0h6vCEY=
 			</data>
 		</dict>
 		<key>Modules/LearningFramework_Build.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hLWCZ6gVym6ropjX29tDrDjFR5coc8WIx4qTdYN92VU=
+			B2u4aYGsw854mRHWCFhZYL4igvi331BjcckRajs2hgE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

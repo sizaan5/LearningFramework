@@ -1,6 +1,6 @@
 # LearningFramework
 
-0.0.7
+0.0.8
 
 - Created repo and push         -   0.0.1
 - Added framework               -   0.0.2
@@ -9,3 +9,4 @@
 - Updated UI of Products screen -   0.0.5
 - Capture/Select imge           -   0.0.6
 - MapKit integrated             -   0.0.7
+- Google Maps integrated        -   0.0.8
