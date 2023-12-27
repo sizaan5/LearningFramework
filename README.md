@@ -9,4 +9,4 @@
 - Updated UI of Products screen -   0.0.5
 - Capture/Select imge           -   0.0.6
 - MapKit integrated             -   0.0.7
-- Google Maps integrated        -   0.0.8
+- GoogleMaps integrated        -   0.0.8
