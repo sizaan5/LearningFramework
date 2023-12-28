@@ -3,24 +3,6 @@
 
 import PackageDescription
 
-/*let package = Package(
-    name: "LearningFramework",
-    products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
-        .library(
-            name: "LearningFramework",
-            targets: ["LearningFramework"]),
-    ],
-    targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "LearningFramework"),
-        .testTarget(
-            name: "LearningFrameworkTests",
-            dependencies: ["LearningFramework"]),
-    ]
-)*/
 let package = Package(
     name: "LearningFramework",
     platforms: [
@@ -34,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        //.package(url: "https://github.com/googlemaps/ios-maps-sdk.git", from: "8.3.1"),
+        //.package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.3.4"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

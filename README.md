@@ -1,6 +1,6 @@
 # LearningFramework
 
-0.1.0
+0.1.1
 
 - Created repo and push         -   0.0.1
 - Added framework               -   0.0.2
@@ -12,3 +12,4 @@
 - GoogleMaps integrated         -   0.0.8
 - GoogleMaps Working            -   0.0.9
 - .framework added to test      -   0.1.0
+- Removed ThirdParty SDKs       -   0.1.1
