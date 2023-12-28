@@ -34,8 +34,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/googlemaps/ios-maps-sdk.git", from: "8.3.1"),
-        //.package(name: "GoogleMaps", path: "https://github.com/googlemaps/google-maps-ios-sdk.git"),
+        //.package(url: "https://github.com/googlemaps/ios-maps-sdk.git", from: "8.3.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -44,9 +43,5 @@ let package = Package(
             name: "LearningFramework_Build",
             path: "./Sources/LearningFramework_Build.xcframework"
         ),
-//        .target(
-//            name: "LearningFramework_Build",
-//            dependencies: ["GoogleMaps"]
-//        ),
     ]
 )

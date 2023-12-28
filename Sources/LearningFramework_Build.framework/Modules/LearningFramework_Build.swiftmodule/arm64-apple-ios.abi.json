@@ -1,0 +1,1510 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMaps",
+        "printedName": "GoogleMaps",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MapKit",
+        "printedName": "MapKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LearningFrameworkDelegate",
+        "printedName": "LearningFrameworkDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "click",
+            "printedName": "click(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LearningFramework_Build@objc(pl)LearningFrameworkDelegate(im)clickWithValue:",
+            "mangledName": "$s23LearningFramework_Build0aB8DelegateP5click5valueyyp_tF",
+            "moduleName": "LearningFramework_Build",
+            "genericSig": "<τ_0_0 where τ_0_0 : LearningFramework_Build.LearningFrameworkDelegate>",
+            "sugared_genericSig": "<Self where Self : LearningFramework_Build.LearningFrameworkDelegate>",
+            "protocolReq": true,
+            "objc_name": "clickWithValue:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "click",
+            "printedName": "click()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LearningFramework_Build@objc(pl)LearningFrameworkDelegate(im)click",
+            "mangledName": "$s23LearningFramework_Build0aB8DelegateP5clickyyF",
+            "moduleName": "LearningFramework_Build",
+            "genericSig": "<τ_0_0 where τ_0_0 : LearningFramework_Build.LearningFrameworkDelegate>",
+            "sugared_genericSig": "<Self where Self : LearningFramework_Build.LearningFrameworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@LearningFramework_Build@objc(pl)LearningFrameworkDelegate",
+        "mangledName": "$s23LearningFramework_Build0aB8DelegateP",
+        "moduleName": "LearningFramework_Build",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LearningFramework_Build"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LearningFrameworkCoordinator",
+        "printedName": "LearningFrameworkCoordinator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "navigationController",
+            "printedName": "navigationController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23LearningFramework_Build0aB11CoordinatorC20navigationControllerSo012UINavigationF0CSgvp",
+            "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC20navigationControllerSo012UINavigationF0CSgvp",
+            "moduleName": "LearningFramework_Build",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC20navigationControllerSo012UINavigationF0CSgvg",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC20navigationControllerSo012UINavigationF0CSgvg",
+                "moduleName": "LearningFramework_Build",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC20navigationControllerSo012UINavigationF0CSgvs",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC20navigationControllerSo012UINavigationF0CSgvs",
+                "moduleName": "LearningFramework_Build",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC20navigationControllerSo012UINavigationF0CSgvM",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC20navigationControllerSo012UINavigationF0CSgvM",
+                "moduleName": "LearningFramework_Build",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navController",
+            "printedName": "navController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23LearningFramework_Build0aB11CoordinatorC13navControllerSo012UINavigationF0CSgvpZ",
+            "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC13navControllerSo012UINavigationF0CSgvpZ",
+            "moduleName": "LearningFramework_Build",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC13navControllerSo012UINavigationF0CSgvgZ",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC13navControllerSo012UINavigationF0CSgvgZ",
+                "moduleName": "LearningFramework_Build",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC13navControllerSo012UINavigationF0CSgvsZ",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC13navControllerSo012UINavigationF0CSgvsZ",
+                "moduleName": "LearningFramework_Build",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC13navControllerSo012UINavigationF0CSgvMZ",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC13navControllerSo012UINavigationF0CSgvMZ",
+                "moduleName": "LearningFramework_Build",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(navigationController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LearningFrameworkCoordinator",
+                "printedName": "LearningFramework_Build.LearningFrameworkCoordinator",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23LearningFramework_Build0aB11CoordinatorC20navigationControllerACSo012UINavigationF0C_tcfc",
+            "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC20navigationControllerACSo012UINavigationF0C_tcfc",
+            "moduleName": "LearningFramework_Build",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(message:startType:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StartType",
+                "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LearningFramework_Build.LearningFrameworkDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LearningFrameworkDelegate",
+                    "printedName": "LearningFramework_Build.LearningFrameworkDelegate",
+                    "usr": "c:@M@LearningFramework_Build@objc(pl)LearningFrameworkDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23LearningFramework_Build0aB11CoordinatorC5start7message0E4Type8delegateySS_AC05StartG0OAA0aB8Delegate_pSgtF",
+            "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC5start7message0E4Type8delegateySS_AC05StartG0OAA0aB8Delegate_pSgtF",
+            "moduleName": "LearningFramework_Build",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "StartType",
+            "printedName": "StartType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "PUSH",
+                "printedName": "PUSH",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LearningFramework_Build.LearningFrameworkCoordinator.StartType.Type) -> LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StartType",
+                        "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                        "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StartType",
+                            "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                            "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO4PUSHyA2EmF",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO4PUSHyA2EmF",
+                "moduleName": "LearningFramework_Build"
+              },
+              {
+                "kind": "Var",
+                "name": "PRESENT",
+                "printedName": "PRESENT",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LearningFramework_Build.LearningFrameworkCoordinator.StartType.Type) -> LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StartType",
+                        "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                        "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StartType",
+                            "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                            "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO7PRESENTyA2EmF",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO7PRESENTyA2EmF",
+                "moduleName": "LearningFramework_Build"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StartType",
+                    "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                    "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StartType",
+                    "printedName": "LearningFramework_Build.LearningFrameworkCoordinator.StartType",
+                    "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "LearningFramework_Build",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO9hashValueSivp",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO9hashValueSivp",
+                "moduleName": "LearningFramework_Build",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO9hashValueSivg",
+                    "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO9hashValueSivg",
+                    "moduleName": "LearningFramework_Build",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "LearningFramework_Build",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:23LearningFramework_Build0aB11CoordinatorC9StartTypeO",
+            "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC9StartTypeO",
+            "moduleName": "LearningFramework_Build",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23LearningFramework_Build0aB11CoordinatorC",
+        "mangledName": "$s23LearningFramework_Build0aB11CoordinatorC",
+        "moduleName": "LearningFramework_Build",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "instanceFromNib",
+            "printedName": "instanceFromNib(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC23LearningFramework_BuildE15instanceFromNib4typexxm_tABRbzlFZ",
+            "mangledName": "$sSo6UIViewC23LearningFramework_BuildE15instanceFromNib4typexxm_tABRbzlFZ",
+            "moduleName": "LearningFramework_Build",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<T where T : UIKit.UIView>",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UIViewControllerC23LearningFramework_BuildE8register4typexxm_tABRbzlFZ",
+            "mangledName": "$sSo16UIViewControllerC23LearningFramework_BuildE8register4typexxm_tABRbzlFZ",
+            "moduleName": "LearningFramework_Build",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
+            "sugared_genericSig": "<T where T : UIKit.UIViewController>",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UITableViewCell",
+        "printedName": "UITableViewCell",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So15UITableViewCellC23LearningFramework_BuildE10identifierSSvpZ",
+            "mangledName": "$sSo15UITableViewCellC23LearningFramework_BuildE10identifierSSvpZ",
+            "moduleName": "LearningFramework_Build",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So15UITableViewCellC23LearningFramework_BuildE10identifierSSvgZ",
+                "mangledName": "$sSo15UITableViewCellC23LearningFramework_BuildE10identifierSSvgZ",
+                "moduleName": "LearningFramework_Build",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UITableViewCell",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UITableViewCell",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning1\/Learning1ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
+      "length": 5,
+      "value": "\"...\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning1\/Learning1ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1282,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 8,
+      "value": "\"Photos\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1076,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1266,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1392,
+      "length": 6,
+      "value": "\"Maps\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1597,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 13,
+      "value": "\"Google Maps\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1888,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2312,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Learning3ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2628,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 10,
+      "value": "\"Products\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1161,
+      "length": 32,
+      "value": "\"https:\/\/dummyjson.com\/products\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1397,
+      "length": 34,
+      "value": "\"Error in framework API: \""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1430,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2056,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2272,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2519,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2941,
+      "length": 140,
+      "value": "\"Details: \""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2988,
+      "length": 5,
+      "value": "\"\nBrand: \""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3024,
+      "length": 5,
+      "value": "\"\nPrice: $\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Learning2ViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3061,
+      "length": 160,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/GoogleMapsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 457,
+      "length": 41,
+      "value": "\"AIzaSyBTeJkw45WC4tzcdbk1zAYwXLpLyMysE8I\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/GoogleMapsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 789,
+      "length": 6,
+      "value": "-33.86"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/GoogleMapsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 880,
+      "length": 6,
+      "value": "151.20"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/GoogleMapsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 894,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning2\/Nib\/Learning2TableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 551,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 18,
+      "value": "\"Choose an Option\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 984,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1036,
+      "length": 7,
+      "value": "\"Oops!\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1226,
+      "length": 7,
+      "value": "\"Okay!\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Base\/BaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1324,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/MapKitViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 8,
+      "value": "\"MapKit\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/MapKitViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 660,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/MapKitViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 681,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/MapKitViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 814,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Controllers\/Learning3\/Maps\/MapKitViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1156,
+      "length": 29,
+      "value": "\"Can not determine location.\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
+      "kind": "StringLiteral",
+      "offset": 1462,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
+      "kind": "StringLiteral",
+      "offset": 1470,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1807,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/Utilities.swift",
+      "kind": "StringLiteral",
+      "offset": 1882,
+      "length": 7,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/LearningFrameworkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1490,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/izaansaleem\/Documents\/Learning\/iOS\/Frameworks\/Learning\/LearningFramework_Build\/LearningFramework_Build\/Utilities\/LearningFrameworkCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1774,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
